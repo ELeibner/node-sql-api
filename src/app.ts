@@ -32,8 +32,8 @@ AppDataSource.initialize()
         });
 
         // start express server
-        app.listen(3000);
+        app.listen(3001);
 
-        console.log('Server started on port 3000. Open http://localhost:3000/');
+        console.log('Server started on port 3001. Open http://localhost:3001/');
     })
     .catch((error) => console.log(error));

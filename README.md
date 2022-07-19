@@ -20,7 +20,7 @@ npm start
 
 ## REST API
 
-#### Create New Folders, Subfolders and Files
+### Create New Folders, Subfolders and Files
 
 `POST /folder`
 
@@ -63,7 +63,7 @@ npm start
 **Request**
 
 ```
-http://localhost:3000/file?search_query=fileName&folderId=id&limit=searchLimit
+http://localhost:3001/file?searchQuery=fileName&folderId=id&limit=searchLimit
 ```
 
 ### Delete File in Folder
@@ -73,7 +73,7 @@ http://localhost:3000/file?search_query=fileName&folderId=id&limit=searchLimit
 **Request**
 
 ```
-http://localhost:3000/file/:id
+http://localhost:3001/file/:id
 ```
 
 ### Delete Folder
@@ -83,5 +83,5 @@ http://localhost:3000/file/:id
 **Request**
 
 ```
-http://localhost:3000/folder/:id
+http://localhost:3001/folder/:id
 ```
