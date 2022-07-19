@@ -1,4 +1,4 @@
-## REST API TypeScript, NodeJS, TypeORM & Postgres
+## REST API TypeScript, NodeJS, ExpressJS, TypeORM & PostgreSQL
 
 This is an example of browser-based file system where user is able to create and delete folders, subfolders and files. Furthermore, user is also able to search files using search queries.
 
